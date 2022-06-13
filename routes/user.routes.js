@@ -44,7 +44,7 @@ router.post("/",[
 
 
 router.delete("/:id",[
-    check('id','No es un ID valido').isMongoId(),
+    check('id','No esun ID valido').isMongoId(),
     check('id').custom( existeUsuarioPorId ),
 
     validarCampos

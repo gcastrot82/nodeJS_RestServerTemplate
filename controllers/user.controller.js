@@ -147,7 +147,6 @@ const usuarioDelete = async (req = request, res = response) => {
 
 
   }
-
 module.exports = {
     usuarioGet,
     usuarioPost,
